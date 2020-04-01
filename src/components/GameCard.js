@@ -1,6 +1,6 @@
 import React from 'react';
 import Figure from './Figure';
-import List from './List';
+import List from './AddPlayers';
 
 
 const GameCard = () => (

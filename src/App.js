@@ -3,7 +3,7 @@ import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 //import GameCard from './components/GameCard';
-import NameList from './components/List';
+import AddPlayers from './components/AddPlayers';
 import FourOhFour from './components/FourOhFour';
 
 import {
@@ -28,7 +28,7 @@ function App() {
             {/* <GameCard /> */}
 
             <Route exact path = "/">
-              <NameList />
+              <AddPlayers />
             </Route>
 
             <FourOhFour />
