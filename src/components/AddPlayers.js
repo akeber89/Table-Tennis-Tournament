@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-//import Split from "./Split";
+import Counter from './Counter';
 
 class AddPlayers extends Component {
     constructor(props) {
@@ -13,12 +13,14 @@ class AddPlayers extends Component {
             groupTwo: [],
         };
 
+        this.baseState = this.state
+
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleShuffle = this.handleShuffle.bind(this);
         this.handlePairs = this.handlePairs.bind(this);
         this.handleTeams = this.handleTeams.bind(this);
-
+        this.handleReset = this.handleReset.bind(this);
 
 // or instead of floor you can use ceil depending on what side gets the extra data
 
@@ -30,7 +32,7 @@ class AddPlayers extends Component {
         this.setState({ userInput: userInput });
     }
 
-    handleSubmit(e) {  // we avoid refreshing the page and losing state by using preventDefault()
+    handleSubmit(e) {        //avoid refreshing the page and losing state by using preventDefault()
         e.preventDefault();
 
         this.setState({  // creates a replica of the object with new state, not changing initial state
@@ -38,9 +40,10 @@ class AddPlayers extends Component {
             names: [...this.state.names, this.state.userInput],
         });
     }
-    handleShuffle(array) {
+    handleShuffle(array) { // shuffle the array of names entered by user
         array.sort(() => Math.random() - 0.5);
     }
+
     // create a function that shuffles the entered names
     handlePairs() {
 
@@ -51,7 +54,7 @@ class AddPlayers extends Component {
         });
     }
 
-    handleTeams() {
+    handleTeams() {  // separate the list into 2 lists/teams
         let halfwayThrough = Math.floor(this.state.names.length / 2);
     
         this.setState({ 
@@ -61,6 +64,13 @@ class AddPlayers extends Component {
            groupTwo: [...this.state.names.slice(halfwayThrough, this.state.names.length)]
            })
         }
+
+
+    handleReset() {    // reset all date to initial value to restart the game
+        this.setState(this.baseState)
+    }
+    
+        
 
     render() {
         return (
@@ -94,14 +104,14 @@ class AddPlayers extends Component {
                     onClick={ this.handlePairs }>Shuffle the names
                 </button>
 
-                <br/>
+                <hr/>
 
                 <button 
                     className="btn btn-primary mt-4"
                     onClick={ this.handleTeams }>Create teams
                 </button>
                 <>  
-                    <p>Group One</p>
+                    <p>Team One</p>
                     <ul className="list-group mt-4">
                         { this.state.groupOne.map((groupOne, i) => (
                             <li className="list-group-item" key={ i }>{ groupOne }</li>
@@ -109,13 +119,26 @@ class AddPlayers extends Component {
                     </ul>
                 </>
                 <>
-                    <p>Group Two</p>
+                    <p>Team Two</p>
                     <ul className="list-group mt-4">
                         { this.state.groupTwo.map((groupTwo, i) => (
                             <li className="list-group-item" key={ i }>{ groupTwo }</li>
                         )) }
                     </ul>
                 </>
+
+                <button 
+                    className="btn btn-primary mt-4"
+                    onClick={ this.handleReset }>Reset
+                </button>
+
+                <hr/>
+
+                <Counter />
+                <h1>Team One Score: {this.state.count}</h1>
+
+                <Counter />
+                <h1>Team Two Score: {this.state.count}</h1>
 
                 
             
