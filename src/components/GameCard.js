@@ -1,14 +1,12 @@
-import React from 'react';
-import Figure from './Figure';
-import List from './AddPlayers';
-
+import React from "react";
+import Figure from "./Figure";
+import List from "./AddPlayers";
 
 const GameCard = () => (
+  <>
+    <Figure />
 
-    <>
-        <Figure />
-            
-        <List />
-    </>
+    <List />
+  </>
 );
 export default GameCard;
