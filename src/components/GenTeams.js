@@ -12,13 +12,13 @@ function GenTeams({ namesShuffled }) {
   const groupTwo = namesShuffled.slice(splitNamesList, namesShuffled.length);
 
   return (
-    <>
-      <button className="btn btn-primary mt-4" onClick={showTeams}>
-        Team up!
+    <div className="panel">
+      <button className="teamUp" onClick={showTeams}>
+        Show Teams
       </button>
       {isTeamsVisible && (
         <>
-          <p>Team One</p>
+          <p className="teamNumber">Team One</p>
           <ul className="list-group mt-4">
             {groupOne.map((groupOne, i) => (
               <li className="list-group-item" key={i}>
@@ -26,8 +26,8 @@ function GenTeams({ namesShuffled }) {
               </li>
             ))}
           </ul>
-          <hr />
-          <p>Team Two</p>
+
+          <p className="teamNumber">Team Two</p>
           <ul className="list-group mt-4">
             {groupTwo.map((groupTwo, i) => (
               <li className="list-group-item" key={i}>
@@ -37,7 +37,7 @@ function GenTeams({ namesShuffled }) {
           </ul>
         </>
       )}
-    </>
+    </div>
   );
 }
 

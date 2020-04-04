@@ -19,7 +19,6 @@ function App() {
             <Figure />
             <AddPlayers />
             <Counter />
-            <hr />
             <Counter />
           </Route>
 
