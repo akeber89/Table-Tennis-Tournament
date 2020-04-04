@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Counter from "./Counter";
+// import Counter from "./Counter";
 import GenTeams from "./GenTeams";
 
 class AddPlayers extends Component {
@@ -83,7 +83,7 @@ class AddPlayers extends Component {
         </ul>
 
         <button className="btn btn-primary mt-4" onClick={this.handlePairs}>
-          Shuffle the names
+          Shuffle players
         </button>
 
         <hr />
@@ -93,14 +93,6 @@ class AddPlayers extends Component {
         <button className="btn btn-primary mt-4" onClick={this.handleReset}>
           Reset
         </button>
-
-        <hr />
-
-        <Counter />
-        <h1>Team One Score: {this.state.count}</h1>
-
-        <Counter />
-        <h1>Team Two Score: {this.state.count}</h1>
       </React.Fragment>
     );
   }

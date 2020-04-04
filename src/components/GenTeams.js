@@ -14,10 +14,11 @@ function GenTeams({ namesShuffled }) {
   return (
     <>
       <button className="btn btn-primary mt-4" onClick={showTeams}>
-        Create teams
+        Team up!
       </button>
       {isTeamsVisible && (
         <>
+          <p>Team One</p>
           <ul className="list-group mt-4">
             {groupOne.map((groupOne, i) => (
               <li className="list-group-item" key={i}>
@@ -25,6 +26,7 @@ function GenTeams({ namesShuffled }) {
               </li>
             ))}
           </ul>
+          <hr />
           <p>Team Two</p>
           <ul className="list-group mt-4">
             {groupTwo.map((groupTwo, i) => (
