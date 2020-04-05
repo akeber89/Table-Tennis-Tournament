@@ -8,11 +8,11 @@ import AddPlayers from "./components/AddPlayers";
 import FourOhFour from "./components/FourOhFour";
 import Figure from "./components/Figure";
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename="/">
       <>
         <Header /> {/* will always render */}
         <Switch>
@@ -29,7 +29,7 @@ function App() {
         </Switch>
         <Footer /> {/* will always render */}
       </>
-    </Router>
+    </HashRouter>
   );
 }
 
