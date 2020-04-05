@@ -1,10 +1,10 @@
 /* 'show teams' button */
 
 .teamUp {
-  background-color: #bf5a5a;
+  background-color: #a600ac;
   color: white;
   padding: 1rem 5rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   border-radius: 4px;
   border-color: #d98989;
   width: 60%;
@@ -26,7 +26,7 @@
 /* team one and team two name lists */
 
 .teamNumber {
-  color: #bf5a5a;
+  color: white;
   font-family: "bellerose";
   font-size: 1.9rem;
   font-style: bold;
@@ -38,4 +38,5 @@
   color: white;
   font-family: "bellerose";
   font-size: 1.3rem;
+  list-style: none;
 }

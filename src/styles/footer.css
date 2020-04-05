@@ -1,11 +1,9 @@
 /* footer */
 
 .footer {
-  background-color: #271c40;
+  background-color: rgb(28, 66, 61);
   text-align: center;
-  border-radius: 4px;
   padding: 1.6rem;
-  margin: 1.6rem;
   color: white;
   font-family: "bellerose";
   font-size: 1.3rem;
@@ -14,8 +12,5 @@
 /* social icons */
 
 .social {
-  background-color: #bf5a5a;
-  border-radius: 4px;
   margin: 0.7rem;
-  border: solid 1px #d98989;
 }

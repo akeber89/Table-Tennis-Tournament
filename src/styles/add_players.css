@@ -26,12 +26,12 @@
 
 .add {
   margin-left: 1.6rem;
-  background-color: #bf5a5a;
+  background-color: #a600ac;
   color: white;
   padding: 1rem 1.6rem;
   text-align: center;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 1.2rem;
   border-radius: 4px;
   border-color: #d98989;
 }
@@ -39,12 +39,12 @@
 /* shuffle names button */
 
 .shuffle {
-  background-color: #bf5a5a;
+  background-color: #a600ac;
   color: white;
   padding: 1rem 2rem;
   text-align: center;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 1.2rem;
   border-radius: 4px;
   border-color: #d98989;
 }
@@ -63,12 +63,12 @@
 /* reset game fields button */
 
 .resetPlayers {
-  background-color: #bf5a5a;
+  background-color: #a600ac;
   color: white;
   padding: 1rem 5rem;
   text-align: center;
   display: block;
-  font-size: 1rem;
+  font-size: 1.2rem;
   border-radius: 4px;
   border-color: #d98989;
   width: 40%;
