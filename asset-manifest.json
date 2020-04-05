@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Table-Tennis-Tournament/static/css/main.8acb9937.chunk.css",
+    "main.css": "/Table-Tennis-Tournament/static/css/main.b94121cb.chunk.css",
     "main.js": "/Table-Tennis-Tournament/static/js/main.922380f2.chunk.js",
     "main.js.map": "/Table-Tennis-Tournament/static/js/main.922380f2.chunk.js.map",
     "runtime-main.js": "/Table-Tennis-Tournament/static/js/runtime-main.7f947087.js",
@@ -8,9 +8,9 @@
     "static/js/2.ee22a983.chunk.js": "/Table-Tennis-Tournament/static/js/2.ee22a983.chunk.js",
     "static/js/2.ee22a983.chunk.js.map": "/Table-Tennis-Tournament/static/js/2.ee22a983.chunk.js.map",
     "index.html": "/Table-Tennis-Tournament/index.html",
-    "precache-manifest.5001163b71e0a4ed4810e9876907733b.js": "/Table-Tennis-Tournament/precache-manifest.5001163b71e0a4ed4810e9876907733b.js",
+    "precache-manifest.08ee055bcfc26356ece383fe0c3e63ab.js": "/Table-Tennis-Tournament/precache-manifest.08ee055bcfc26356ece383fe0c3e63ab.js",
     "service-worker.js": "/Table-Tennis-Tournament/service-worker.js",
-    "static/css/main.8acb9937.chunk.css.map": "/Table-Tennis-Tournament/static/css/main.8acb9937.chunk.css.map",
+    "static/css/main.b94121cb.chunk.css.map": "/Table-Tennis-Tournament/static/css/main.b94121cb.chunk.css.map",
     "static/js/2.ee22a983.chunk.js.LICENSE.txt": "/Table-Tennis-Tournament/static/js/2.ee22a983.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Table-Tennis-Tournament/static/media/Bellerose.ab35240d.ttf",
     "static/media/ping_pong.jpg": "/Table-Tennis-Tournament/static/media/ping_pong.653130f7.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.7f947087.js",
     "static/js/2.ee22a983.chunk.js",
-    "static/css/main.8acb9937.chunk.css",
+    "static/css/main.b94121cb.chunk.css",
     "static/js/main.922380f2.chunk.js"
   ]
 }
