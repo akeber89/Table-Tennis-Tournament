@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4dd69e410b738828888ca3f5ea04bade",
+    "revision": "7b589c060e4abdf804381aaeabf1f527",
     "url": "/Table-Tennis-Tournament/index.html"
   },
   {
-    "revision": "800648c7ba3cf1c4b17b",
+    "revision": "f9cf93982f3d7ef8357d",
     "url": "/Table-Tennis-Tournament/static/css/main.8acb9937.chunk.css"
   },
   {
-    "revision": "09f3c93fc6c50548e583",
-    "url": "/Table-Tennis-Tournament/static/js/2.e35394f8.chunk.js"
+    "revision": "0150c8c79625e13504d3",
+    "url": "/Table-Tennis-Tournament/static/js/2.ab8e062c.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Table-Tennis-Tournament/static/js/2.e35394f8.chunk.js.LICENSE.txt"
+    "url": "/Table-Tennis-Tournament/static/js/2.ab8e062c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "800648c7ba3cf1c4b17b",
-    "url": "/Table-Tennis-Tournament/static/js/main.974c138b.chunk.js"
+    "revision": "f9cf93982f3d7ef8357d",
+    "url": "/Table-Tennis-Tournament/static/js/main.2697801d.chunk.js"
   },
   {
     "revision": "328a355829b59130819e",
