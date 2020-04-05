@@ -1,74 +1,62 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-http://mattkersley.com/responsive/
+Set up:
 
-<!-- testing for responsive layout -->
+1. NPM and a Command Line tool is needed.
+2. git clone this repo and cd into the project folder
+3. run npm install
+4. run npm start to view on localhost:3000 on browser
+5. You can view the live app here:
 
-## Available Scripts
+Technologies and skills used:
 
-In the project directory, you can run:
+React, JSX, JavaScript, HTML, CSS, Git, Wireframing
 
-### `npm start`
+### Project summary**:**
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This was a 1 week long project built solely by me as the final technical challenge at DevelopMe\_ bootcamp. Project goals included using technologies learned up until this point, familiarizing myself with documentation for new features, planning and creating a new webpage/app from scratch. It was a great learning experience. In my future projects I will be spending more time on planning out the functionality and the page/app structure. I have also learnt to keep SEO requirements within sight during the planning process, not just as an afterthought.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## The brief:
 
-### `npm test`
+The core of the challenge is to create a tool which randomly creates pairings for a table tennis tournament bracket from a list of names collected from the user.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+It's up to you how you implement this, with JavaScript, React, or PHP, as a web page, or as an app.
 
-### `npm run build`
+Some optional advanced features might include:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ability to record scores for each player, or mark which player won from each pairing, to create the next round of the tournament playoffs
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+continued rounds created until the final (last 2 players who have won all matches to date play each other, one marked as the winner)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## My process:
 
-### `npm run eject`
+I have set out to use React to make sure my page will be able to accept future extensions and additional components for new functionality. I started this process by using the create-react-app boilerplate, then adding react-router-dom. I used this boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. The 'Table Tennis Tournament' game accepts player names entered by the user then splits them into 2 teams. There are 2 score counter panels to keep track of results.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+I have used git to version manage my project.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Planning:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- **Programming perspective:**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  MVP: Need to take user input -> store in an array -> divide into two arrays (push items in random order)
 
-## Learn More
+  Advanced: Need to store as an object with key of player name and position into an array. Limit the number of players on each position when user pick. Each team need to has one of each position player.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **UX perspective:** provide a cclear and intuitive visual guidance and easy to use UI.
+- **UI perspective:** Responsive design
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Suggested changes and stretch goals:
 
-### Code Splitting
+Continued rounds created until the final (last 2 players who have won all matches to date play each other, one marked as the winner)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+To optimise state management I could have used Redux. Due to time constraints I did not have enough time to re-write my code so I decided to store state in the components rather than in the Redux store. This update is something I'm planning to carry out in the future.
 
-### Analyzing the Bundle Size
+Interactivity: I'd like to integrate the score-keeping into the team lists and display the result of the match-up.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Due to time constraints I have not been able to make my page entirely responsive (only the layout) to alternative screen sizes, it works best on wide screen.
 
-### Making a Progressive Web App
+I need to add validation to the form where the user inputs names to avoid entering blank list items.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+In the next iteration I plan on handrolling a webpack.config.js file to better understand the build process.
 
 # Table-Tennis-Tournament
