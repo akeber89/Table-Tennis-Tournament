@@ -94,6 +94,9 @@ class AddPlayers extends Component {
         </div>
 
         <div className="resetContainer">
+          <p className="changeTeam">
+            You have selected your team. Would you like to pick new names?
+          </p>
           <button className="resetPlayers" onClick={this.handleReset}>
             Reset
           </button>

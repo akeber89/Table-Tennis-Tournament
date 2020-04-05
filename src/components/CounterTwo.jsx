@@ -1,6 +1,6 @@
 import React from "react";
 
-class Counter extends React.Component {
+class CounterTwo extends React.Component {
   constructor(props) {
     super(props);
 
@@ -36,24 +36,24 @@ class Counter extends React.Component {
   render() {
     return (
       <div className="counter">
-        <button className="inc" onClick={this.increment}>
-          Increment!
+        <h4 className="teamName">Team Two Score: {this.state.count}</h4>
+
+        <button className="counterButton" onClick={this.increment}>
+          Increment
         </button>
         <br />
 
-        <button className="dec" onClick={this.decrement}>
-          Decrement!
+        <button className="counterButton" onClick={this.decrement}>
+          Decrement
         </button>
         <br />
 
-        <button className="reset" onClick={this.reset}>
+        <button className="counterButton" onClick={this.reset}>
           Reset
         </button>
         <br />
-
-        <h4>Current Count: {this.state.count}</h4>
       </div>
     );
   }
 }
-export default Counter;
+export default CounterTwo;

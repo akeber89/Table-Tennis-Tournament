@@ -1,0 +1,31 @@
+.teamUp {
+  background-color: #bf5a5a;
+  color: white;
+  padding: 15px 80px;
+  font-size: 16px;
+  border-radius: 4px;
+  border-color: #d98989;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.panel {
+  background-color: #4e3473;
+  border-radius: 4px;
+  padding: 25px;
+  margin-bottom: 25px;
+  display: block;
+  border: 2px solid #271c40;
+}
+
+.teamNumber {
+  color: #bf5a5a;
+  font-family: "bellerose";
+  font-size: 30px;
+  font-style: bold;
+}
+.list-group-item {
+  color: white;
+  font-family: "bellerose";
+  font-size: 20px;
+}

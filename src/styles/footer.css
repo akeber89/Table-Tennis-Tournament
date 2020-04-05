@@ -1,0 +1,10 @@
+.footer {
+  background-color: #271c40;
+  text-align: center;
+  border-radius: 4px;
+  padding: 25px;
+  margin: 25px;
+  color: white;
+  font-family: "bellerose";
+  font-size: 20px;
+}

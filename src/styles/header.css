@@ -1,0 +1,15 @@
+.header {
+  background-color: #4e3473;
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px;
+  /* margin: 15px; */
+  border: solid #271c40 20px;
+  /* margin-top: 15px; */
+}
+.title {
+  font-family: "bellerose";
+  font-size: 70px;
+  color: white;
+  margin-bottom: 25px;
+}
