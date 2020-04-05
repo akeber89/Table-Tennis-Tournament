@@ -1,3 +1,5 @@
+/* header */
+
 .header {
   background-color: #4e3473;
   text-align: center;
@@ -5,6 +7,9 @@
   padding: 1.3rem;
   border: solid #271c40 1.3rem;
 }
+
+/* header title */
+
 .title {
   font-family: "bellerose";
   font-size: 4rem;

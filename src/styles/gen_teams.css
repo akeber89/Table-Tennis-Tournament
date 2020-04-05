@@ -1,3 +1,5 @@
+/* 'show teams' button */
+
 .teamUp {
   background-color: #bf5a5a;
   color: white;
@@ -9,6 +11,9 @@
   margin-left: 20%;
   margin-right: 20%;
 }
+
+/* single game panel */
+
 .panel {
   background-color: #4e3473;
   border-radius: 4px;
@@ -18,12 +23,17 @@
   border: 2px solid #271c40;
 }
 
+/* team one and team two name lists */
+
 .teamNumber {
   color: #bf5a5a;
   font-family: "bellerose";
   font-size: 1.9rem;
   font-style: bold;
 }
+
+/* name list items */
+
 .list-group-item {
   color: white;
   font-family: "bellerose";
