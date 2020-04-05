@@ -6,13 +6,13 @@ Set up:
 2. git clone this repo and cd into the project folder
 3. run npm install
 4. run npm start to view on localhost:3000 on browser
-5. You can view the live app here:
+5. You can view the live app here: https://akeber89.github.io/Table-Tennis-Tournament/
 
 Technologies and skills used:
 
 React, JSX, JavaScript, HTML, CSS, Git, Wireframing
 
-### Project summary**:**
+### Project summary:
 
 This was a 1 week long project built solely by me as the final technical challenge at DevelopMe\_ bootcamp. Project goals included using technologies learned up until this point, familiarizing myself with documentation for new features, planning and creating a new webpage/app from scratch. It was a great learning experience. In my future projects I will be spending more time on planning out the functionality and the page/app structure. I have also learnt to keep SEO requirements within sight during the planning process, not just as an afterthought.
 

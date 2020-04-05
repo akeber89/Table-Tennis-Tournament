@@ -33,7 +33,7 @@ class AddPlayers extends Component {
     e.preventDefault();
 
     this.setState({
-      // creates a replica of the object with new state, not changing initial state
+      // creates a replica of the object with new state
       userInput: "",
       names: [...this.state.names, this.state.userInput],
     });
