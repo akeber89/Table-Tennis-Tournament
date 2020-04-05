@@ -1,8 +1,9 @@
 .card img {
+  max-width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+  margin-top: 3.1rem;
   width: 50%;
   border-radius: 8px;
   border: solid rgb(28, 66, 61) 12px;
@@ -11,11 +12,11 @@
   text-align: center;
   color: white;
   font-family: "bellerose";
-  font-size: 45px;
+  font-size: 2.8rem;
   background-color: rgb(28, 66, 61);
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 25px;
+  margin-top: 3.1rem;
+  margin-bottom: 3.1rem;
+  padding: 1.6rem;
   border-radius: 8px;
   border: rgb(15, 44, 15) 2px solid;
 }

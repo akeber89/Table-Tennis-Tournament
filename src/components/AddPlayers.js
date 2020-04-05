@@ -77,7 +77,7 @@ class AddPlayers extends Component {
               <button className="add">Add</button>
             </form>
 
-            <ul className="list-group mt-4">
+            <ul>
               {this.state.names.map((name, i) => (
                 <li className="list-group-item" key={i}>
                   {name}

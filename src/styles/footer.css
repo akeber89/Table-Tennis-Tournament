@@ -2,9 +2,15 @@
   background-color: #271c40;
   text-align: center;
   border-radius: 4px;
-  padding: 25px;
-  margin: 25px;
+  padding: 1.6rem;
+  margin: 1.6rem;
   color: white;
   font-family: "bellerose";
-  font-size: 20px;
+  font-size: 1.3rem;
+}
+.social {
+  background-color: #bf5a5a;
+  border-radius: 4px;
+  margin: 0.7rem;
+  border: solid 1px #d98989;
 }
