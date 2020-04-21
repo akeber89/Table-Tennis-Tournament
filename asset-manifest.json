@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Table-Tennis-Tournament/static/css/main.b94121cb.chunk.css",
-    "main.js": "/Table-Tennis-Tournament/static/js/main.922380f2.chunk.js",
-    "main.js.map": "/Table-Tennis-Tournament/static/js/main.922380f2.chunk.js.map",
-    "runtime-main.js": "/Table-Tennis-Tournament/static/js/runtime-main.7f947087.js",
-    "runtime-main.js.map": "/Table-Tennis-Tournament/static/js/runtime-main.7f947087.js.map",
-    "static/js/2.ee22a983.chunk.js": "/Table-Tennis-Tournament/static/js/2.ee22a983.chunk.js",
-    "static/js/2.ee22a983.chunk.js.map": "/Table-Tennis-Tournament/static/js/2.ee22a983.chunk.js.map",
-    "index.html": "/Table-Tennis-Tournament/index.html",
-    "precache-manifest.08ee055bcfc26356ece383fe0c3e63ab.js": "/Table-Tennis-Tournament/precache-manifest.08ee055bcfc26356ece383fe0c3e63ab.js",
-    "service-worker.js": "/Table-Tennis-Tournament/service-worker.js",
-    "static/css/main.b94121cb.chunk.css.map": "/Table-Tennis-Tournament/static/css/main.b94121cb.chunk.css.map",
-    "static/js/2.ee22a983.chunk.js.LICENSE.txt": "/Table-Tennis-Tournament/static/js/2.ee22a983.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/Table-Tennis-Tournament/static/media/Bellerose.ab35240d.ttf",
-    "static/media/ping_pong.jpg": "/Table-Tennis-Tournament/static/media/ping_pong.653130f7.jpg"
+    "main.css": "/React-App-Table-Tennis-Tournament/static/css/main.c2efd718.chunk.css",
+    "main.js": "/React-App-Table-Tennis-Tournament/static/js/main.c83e0fb7.chunk.js",
+    "main.js.map": "/React-App-Table-Tennis-Tournament/static/js/main.c83e0fb7.chunk.js.map",
+    "runtime-main.js": "/React-App-Table-Tennis-Tournament/static/js/runtime-main.68ffac69.js",
+    "runtime-main.js.map": "/React-App-Table-Tennis-Tournament/static/js/runtime-main.68ffac69.js.map",
+    "static/js/2.ee22a983.chunk.js": "/React-App-Table-Tennis-Tournament/static/js/2.ee22a983.chunk.js",
+    "static/js/2.ee22a983.chunk.js.map": "/React-App-Table-Tennis-Tournament/static/js/2.ee22a983.chunk.js.map",
+    "index.html": "/React-App-Table-Tennis-Tournament/index.html",
+    "precache-manifest.6271ba4e1ba3bea467d40c9891593467.js": "/React-App-Table-Tennis-Tournament/precache-manifest.6271ba4e1ba3bea467d40c9891593467.js",
+    "service-worker.js": "/React-App-Table-Tennis-Tournament/service-worker.js",
+    "static/css/main.c2efd718.chunk.css.map": "/React-App-Table-Tennis-Tournament/static/css/main.c2efd718.chunk.css.map",
+    "static/js/2.ee22a983.chunk.js.LICENSE.txt": "/React-App-Table-Tennis-Tournament/static/js/2.ee22a983.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/React-App-Table-Tennis-Tournament/static/media/Bellerose.ab35240d.ttf",
+    "static/media/ping_pong.jpg": "/React-App-Table-Tennis-Tournament/static/media/ping_pong.653130f7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7f947087.js",
+    "static/js/runtime-main.68ffac69.js",
     "static/js/2.ee22a983.chunk.js",
-    "static/css/main.b94121cb.chunk.css",
-    "static/js/main.922380f2.chunk.js"
+    "static/css/main.c2efd718.chunk.css",
+    "static/js/main.c83e0fb7.chunk.js"
   ]
 }
