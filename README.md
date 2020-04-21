@@ -6,7 +6,7 @@ Set up:
 2. git clone this repo and cd into the project folder
 3. run npm install
 4. run npm start to view on localhost:3000 on browser
-5. You can view the live app here: https://akeber89.github.io/Table-Tennis-Tournament/
+5. You can view the live app here: https://akeber89.github.io/React-App-Table-Tennis-Tournament/
 
 Technologies and skills used:
 
